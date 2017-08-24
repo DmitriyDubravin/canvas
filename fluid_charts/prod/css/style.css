@@ -1,0 +1,69 @@
+body
+{
+    margin: 0;
+}
+
+.buttons
+{
+    padding: 20px;
+}
+
+.button
+{
+    font: 15px/30px Arial, Helvetica, sans-serif;
+
+    display: inline-block;
+
+    min-width: 80px;
+    margin: 0 20px 0 0;
+    padding: 0 20px;
+
+    -webkit-transition: all .25s;
+            transition: all .25s;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+
+    color: #fff;
+    border-radius: 3px;
+}
+
+.button.blue
+{
+    background: rgba(0, 0, 255, .5);
+}
+
+.button.blue:hover
+{
+    background: rgba(0, 0, 255, .7);
+}
+
+.button.red
+{
+    background: rgba(255, 0, 0, .5);
+}
+
+.button.red:hover
+{
+    background: rgba(255, 0, 0, .7);
+}
+
+.button.green
+{
+    background: rgba(0, 255, 0, .5);
+}
+
+.button.green:hover
+{
+    background: rgba(0, 255, 0, .7);
+}
+
+.button.all
+{
+    background: rgba(0, 0, 0, .5);
+}
+
+.button.all:hover
+{
+    background: rgba(0, 0, 0, .7);
+}
